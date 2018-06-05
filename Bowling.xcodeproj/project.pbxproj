@@ -14,6 +14,9 @@
 		79DCC59420C54A3B002EE6A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DCC59220C54A3B002EE6A8 /* LaunchScreen.storyboard */; };
 		79DCC59F20C54A3B002EE6A8 /* BowlingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DCC59E20C54A3B002EE6A8 /* BowlingTests.swift */; };
 		79DCC5AA20C54A3B002EE6A8 /* BowlingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DCC5A920C54A3B002EE6A8 /* BowlingUITests.swift */; };
+		79DCC5B820C54C9B002EE6A8 /* BowlingScorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DCC5B720C54C9B002EE6A8 /* BowlingScorer.swift */; };
+		79DCC5BC20C55192002EE6A8 /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DCC5BB20C55192002EE6A8 /* Rules.swift */; };
+		79DCC5BE20C551A0002EE6A8 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DCC5BD20C551A0002EE6A8 /* Frame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		79DCC5A520C54A3B002EE6A8 /* BowlingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowlingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DCC5A920C54A3B002EE6A8 /* BowlingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingUITests.swift; sourceTree = "<group>"; };
 		79DCC5AB20C54A3B002EE6A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79DCC5B720C54C9B002EE6A8 /* BowlingScorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingScorer.swift; sourceTree = "<group>"; };
+		79DCC5BB20C55192002EE6A8 /* Rules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rules.swift; sourceTree = "<group>"; };
+		79DCC5BD20C551A0002EE6A8 /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				79DCC59020C54A3B002EE6A8 /* Assets.xcassets */,
 				79DCC59220C54A3B002EE6A8 /* LaunchScreen.storyboard */,
 				79DCC59520C54A3B002EE6A8 /* Info.plist */,
+				79DCC5B720C54C9B002EE6A8 /* BowlingScorer.swift */,
+				79DCC5BB20C55192002EE6A8 /* Rules.swift */,
+				79DCC5BD20C551A0002EE6A8 /* Frame.swift */,
 			);
 			path = Bowling;
 			sourceTree = "<group>";
@@ -258,6 +267,9 @@
 			files = (
 				79DCC58C20C54A3A002EE6A8 /* ViewController.swift in Sources */,
 				79DCC58A20C54A3A002EE6A8 /* AppDelegate.swift in Sources */,
+				79DCC5BE20C551A0002EE6A8 /* Frame.swift in Sources */,
+				79DCC5B820C54C9B002EE6A8 /* BowlingScorer.swift in Sources */,
+				79DCC5BC20C55192002EE6A8 /* Rules.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
